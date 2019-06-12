@@ -1,0 +1,19 @@
+service: HerokuLogs
+provider:
+  name: aws
+  runtime: python3.7
+  region: us-east-1
+  stage: ${opt:stage}
+
+functions:
+  index:
+    handler: handler.lambda_handler
+    events:
+      - http: POST hello
+
+custom:
+  pythonRequirements:
+    dockerizePip: false
+
+plugins:
+  - serverless-python-requirements

@@ -1,0 +1,3 @@
+iso8601==0.1.12
+pyparsing==2.4.0
+requests==2.22.0
