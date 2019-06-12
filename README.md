@@ -4,7 +4,7 @@
 
 Stream and store heroku logs in AWS Cloudwatch using AWS Lambda and Heroku Log Drains.
 
-More info please refer to: https://coderecipe.ai/architectures/59609314
+More info: https://coderecipe.ai/architectures/59609314
 
 ### Download the code locally
 
